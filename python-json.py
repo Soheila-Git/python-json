@@ -50,3 +50,11 @@ for person in data['people']:
 {'name': 'John Smith', 'phone': '616-555-7187', 'emails': ['johnsmith@gmail.com', 'jsmith@work.com'], 'has_license': False}
 {'name': 'Jane Doe', 'phone': '543-453-5544', 'emails': None, 'has_license': True}
 '''
+
+# Access the name of each person
+for person in data['people']:
+  print(person['name'])
+'''
+John Smith
+Jane Doe
+'''
