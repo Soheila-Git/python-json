@@ -35,3 +35,10 @@ print(data)
 {'name': 'Jane Doe', 'phone': '543-453-5544', 'emails': None,
 'has_license': True}]}
 '''
+
+print(type(data))
+# <class 'dict'>
+
+
+print(type(data['people']))
+# <class 'list'>
